@@ -43,9 +43,9 @@ void plot_dm2(){
   oscGraph1->Draw("Psame");
 
   latex.SetTextColor(4);
-  latex.DrawLatex(2.9,idx[2]-0.1,"T2K");
+  latex.DrawLatex(2.9,idx[2]-0.1,"MINOS");
   latex.SetTextColor(4);
-  latex.DrawLatex(2.9,idx[3]-0.1,"MINOS");
+  latex.DrawLatex(2.9,idx[3]-0.1,"T2K");
   latex.SetTextColor(4);
   latex.DrawLatex(2.9,idx[4]-0.1,"NO#nuA");
 
