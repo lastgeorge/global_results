@@ -16,7 +16,7 @@ void plot_dm2(){
   oscGraph->GetXaxis()->SetLimits(2.2,3.2);
   oscGraph->GetYaxis()->SetRangeUser(0,8.);
   oscGraph->GetYaxis()->SetNdivisions(0);
-  oscGraph->GetXaxis()->SetTitle("#Delta m^{2}_{32} (#times 10^{3} eV^{2})");
+  oscGraph->GetXaxis()->SetTitle("#Delta m^{2}_{32} (#times 10^{-3} eV^{2})");
   oscGraph->SetTitle("Normal Hierarchy Assumed");
   oscGraph->Draw("AP");
   
