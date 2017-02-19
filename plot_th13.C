@@ -2,11 +2,11 @@ void plot_th13(){
   TCanvas *c1 = new TCanvas("c1","c1",800,1000);
   c1->SetFillColor(10);
   double idx[4]={1,2,3,4,};
-  double value[4]={0.0841,0.071,0.082,0.111,
+  double value[4]={0.0841,0.071,0.082,0.119,
   };
-  double valueUncLow[4]={0.0033,0.011,0.0108,0.018,
+  double valueUncLow[4]={0.0033,0.011,0.0108,0.016,
   };
-  double valueUncHigh[4]={0.0033,0.011,0.0108,0.018,
+  double valueUncHigh[4]={0.0033,0.011,0.0108,0.016,
   };
 
   Double_t dyb_update = value[0];
